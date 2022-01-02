@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Converter</title>
+</head>
+<body>
+    <div id="converter">
+        <div id="first_selection">
+            <select name="first" id="first">
+                <option value="armazenamento_de_dados">Armazenamento de Dados</option>
+                <option value="comprimento" selected>Comprimento</option>
+                <option value="consumo_de_combustivel">Consumo de Combustível</option>
+                <option value="energia_mecanica">Energia Mecânica</option>
+                <option value="frequencia">Frequência</option>
+                <option value="massa">Massa</option>
+                <option value="pressao">Pressão</option>
+                <option value="temperatura">Temperatura</option>
+                <option value="tempo">Tempo</option>
+                <option value="transmissao_de_dados">Transmissão de Dados</option>
+                <option value="velocidade">Velocidade</option>
+                <option value="volume">Volume</option>
+                <option value="area">Área</option>
+                <option value="angulo">Ângulo</option>
+            </select>
+        </div>
+        <div id="calculus">
+            <div id="second_selection">
+                <input type="number" class="entry" id="first_entry">
+                <select name="second" id="second">
+                    <option value="quilometro">Quilômetro</option>
+                    <option value="metro" selected>Metro</option>
+                    <option value="centimetro">Centímetro</option>
+                    <option value="milimetro">Milímetro</option>
+                    <option value="micrometro">Micrômetro</option>
+                    <option value="nanometro">Nanômetro</option>
+                    <option value="milha">Milha</option>
+                    <option value="jarda">Jarda</option>
+                    <option value="pe">Pé</option>
+                    <option value="polegada">Polegada</option>
+                    <option value="milha_nautica">Milha Náutica</option>
+                </select>
+            </div>
+            <p>=</p>
+            <div id="third_selection">
+                <input type="number" class="entry" id="second_entry">
+                <select name="third" id="third">
+                    <option value="quilometro">Quilômetro</option>
+                    <option value="metro">Metro</option>
+                    <option value="centimetro" selected>Centímetro</option>
+                    <option value="milimetro">Milímetro</option>
+                    <option value="micrometro">Micrômetro</option>
+                    <option value="nanometro">Nanômetro</option>
+                    <option value="milha">Milha</option>
+                    <option value="jarda">Jarda</option>
+                    <option value="pe">Pé</option>
+                    <option value="polegada">Polegada</option>
+                    <option value="milha_nautica">Milha Náutica</option>
+                </select>
+            </div>
+        </div>
+        <div id="formula_text">
+            <div id="box_formula">
+                <p>Fórmula</p>
+            </div>
+            <div id="formula">
+                <p>multiplique o valor de comprimento por 100</p>
+            </div>
+        </div>
+    </div>
+    <script src="../javascript/script.js"></script>
+</body>
+</html>

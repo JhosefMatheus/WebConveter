@@ -176,6 +176,11 @@ const first_selector = document.getElementById("first");
 var second_selector = document.getElementById("second");
 var third_selector = document.getElementById("third");
 
+var first_input = document.getElementById("first_entry");
+var second_input = document.getElementById("second_entry");
+
+var default_entry_value = 1;
+
 first_selector.addEventListener("change", (e) => {
 
     var choice = e.target.value;
@@ -190,6 +195,9 @@ first_selector.addEventListener("change", (e) => {
 
             set_selected(second_selector, "byte");
             set_selected(third_selector, "kilobyte");
+
+            first_input.value = default_entry_value;
+            second_input.value = default_entry_value/1000;
             break;
 
         case "comprimento":
@@ -198,6 +206,9 @@ first_selector.addEventListener("change", (e) => {
 
             set_selected(second_selector, "metro");
             set_selected(third_selector, "centimetro");
+
+            first_input.value = default_entry_value;
+            second_input.value = default_entry_value*100;
             break;
 
         case "consumo_de_combustivel":
@@ -206,6 +217,9 @@ first_selector.addEventListener("change", (e) => {
 
             set_selected(second_selector, "quilometro_por_litro");
             set_selected(third_selector, "milha_por_galao_americano");
+
+            first_input.value = default_entry_value;
+            second_input.value = default_entry_value*2.352;
             break;
         
         case "energia_mecanica":
@@ -214,6 +228,9 @@ first_selector.addEventListener("change", (e) => {
 
             set_selected(second_selector, "joule");
             set_selected(third_selector, "quilocaloria");
+
+            first_input.value = default_entry_value;
+            second_input.value = default_entry_value/4184;
             break;
         
         case "frequencia":
@@ -222,6 +239,9 @@ first_selector.addEventListener("change", (e) => {
 
             set_selected(second_selector, "hertz");
             set_selected(third_selector, "quilo_hertz");
+
+            first_input.value = default_entry_value;
+            second_input.value = default_entry_value/1000;
             break;
         
         case "massa":
@@ -230,6 +250,9 @@ first_selector.addEventListener("change", (e) => {
 
             set_selected(second_selector, "quilograma");
             set_selected(third_selector, "grama");
+
+            first_input.value = default_entry_value;
+            second_input.value = default_entry_value*1000;
             break;
         
         case "pressao":
@@ -238,6 +261,9 @@ first_selector.addEventListener("change", (e) => {
 
             set_selected(second_selector, "pascal")
             set_selected(third_selector, "bar");
+
+            first_input.value = default_entry_value;
+            second_input.value = default_entry_value/100000;
             break;
         
         case "temperatura":
@@ -246,6 +272,9 @@ first_selector.addEventListener("change", (e) => {
 
             set_selected(second_selector, "grau_celsius");
             set_selected(third_selector, "grau_fahrenheit");
+
+            first_input.value = 0;
+            second_input.value = 32;
             break;
         
         case "tempo":
@@ -254,6 +283,9 @@ first_selector.addEventListener("change", (e) => {
 
             set_selected(second_selector, "segundo");
             set_selected(third_selector, "minuto");
+
+            first_input.value = default_entry_value;
+            second_input.value = default_entry_value/60;
             break;
         
         case "transmissao_de_dados":
@@ -262,6 +294,9 @@ first_selector.addEventListener("change", (e) => {
 
             set_selected(second_selector, "bit_por_segundo");
             set_selected(third_selector, "quilobit_por_segundo");
+
+            first_input.value = default_entry_value;
+            second_input.value = default_entry_value/1000;
             break;
         
         case "velocidade":
@@ -270,6 +305,9 @@ first_selector.addEventListener("change", (e) => {
 
             set_selected(second_selector, "metro_por_segundo");
             set_selected(third_selector, "quilometro_por_hora");
+
+            first_input.value = default_entry_value;
+            second_input.value = default_entry_value*3.6;
             break;
         
         case "volume":
@@ -278,6 +316,9 @@ first_selector.addEventListener("change", (e) => {
 
             set_selected(second_selector, "litro");
             set_selected(third_selector, "mililitro");
+
+            first_input.value = default_entry_value;
+            second_input.value = default_entry_value*1000;
             break;
 
         case "area":
@@ -286,6 +327,9 @@ first_selector.addEventListener("change", (e) => {
 
             set_selected(second_selector, "metro_quadrado");
             set_selected(third_selector, "quilometro_quadrado");
+
+            first_input.value = default_entry_value;
+            second_input.value = default_entry_value/10**6;
             break;
 
         case "angulo":
@@ -294,6 +338,9 @@ first_selector.addEventListener("change", (e) => {
 
             set_selected(second_selector, "grau");
             set_selected(third_selector, "radiano");
+
+            first_input.value = default_entry_value;
+            second_input.value = default_entry_value*Math.PI/180;
             break;
     }
 

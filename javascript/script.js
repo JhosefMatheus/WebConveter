@@ -173,13 +173,15 @@ const options_angle = [
 ];
 
 const first_selector = document.getElementById("first");
-var second_selector = document.getElementById("second");
-var third_selector = document.getElementById("third");
+const second_selector = document.getElementById("second");
+const third_selector = document.getElementById("third");
 
-var first_input = document.getElementById("first_entry");
-var second_input = document.getElementById("second_entry");
+const first_input = document.getElementById("first_entry");
+const second_input = document.getElementById("second_entry");
 
-var default_entry_value = 1;
+const formula_text = document.querySelector("#formula > p");
+
+const default_entry_value = 1;
 
 first_selector.addEventListener("change", (e) => {
 
@@ -198,6 +200,8 @@ first_selector.addEventListener("change", (e) => {
 
             first_input.value = default_entry_value;
             second_input.value = default_entry_value/1000;
+
+            formula_text.innerHTML = "divida o valor de armazenamento de dados por 1000";
             break;
 
         case "comprimento":
@@ -209,6 +213,8 @@ first_selector.addEventListener("change", (e) => {
 
             first_input.value = default_entry_value;
             second_input.value = default_entry_value*100;
+
+            formula_text.innerHTML = "multiplique o valor de comprimento por 100";
             break;
 
         case "consumo_de_combustivel":
@@ -220,6 +226,8 @@ first_selector.addEventListener("change", (e) => {
 
             first_input.value = default_entry_value;
             second_input.value = default_entry_value*2.352;
+
+            formula_text.innerHTML = "multiplique o valor de consumo de combustível por 2,352";
             break;
         
         case "energia_mecanica":
@@ -231,6 +239,8 @@ first_selector.addEventListener("change", (e) => {
 
             first_input.value = default_entry_value;
             second_input.value = default_entry_value/4184;
+
+            formula_text.innerHTML = "divida o valor de energia mecânica por 4184";
             break;
         
         case "frequencia":
@@ -242,6 +252,8 @@ first_selector.addEventListener("change", (e) => {
 
             first_input.value = default_entry_value;
             second_input.value = default_entry_value/1000;
+
+            formula_text.innerHTML = "divida o valor de frequência por 1000";
             break;
         
         case "massa":
@@ -253,6 +265,8 @@ first_selector.addEventListener("change", (e) => {
 
             first_input.value = default_entry_value;
             second_input.value = default_entry_value*1000;
+
+            formula_text.innerHTML = "multiplique o valor de massa por 1000";
             break;
         
         case "pressao":
@@ -264,6 +278,8 @@ first_selector.addEventListener("change", (e) => {
 
             first_input.value = default_entry_value;
             second_input.value = default_entry_value/100000;
+
+            formula_text.innerHTML = "divida o valor de pressão por 100000";
             break;
         
         case "temperatura":
@@ -275,6 +291,8 @@ first_selector.addEventListener("change", (e) => {
 
             first_input.value = 0;
             second_input.value = 32;
+
+            formula_text.innerHTML = "(0 °C x 9/5) + 32 = 32 °F";
             break;
         
         case "tempo":
@@ -286,6 +304,8 @@ first_selector.addEventListener("change", (e) => {
 
             first_input.value = default_entry_value;
             second_input.value = default_entry_value/60;
+
+            formula_text.innerHTML = "divida o valor de tempo por 60";
             break;
         
         case "transmissao_de_dados":
@@ -297,6 +317,8 @@ first_selector.addEventListener("change", (e) => {
 
             first_input.value = default_entry_value;
             second_input.value = default_entry_value/1000;
+
+            formula_text.innerHTML = "divida o valor de transmissão de dados por 1000";
             break;
         
         case "velocidade":
@@ -308,6 +330,8 @@ first_selector.addEventListener("change", (e) => {
 
             first_input.value = default_entry_value;
             second_input.value = default_entry_value*3.6;
+
+            formula_text.innerHTML = "multiplique o valor de velocidade por 3,6";
             break;
         
         case "volume":
@@ -319,6 +343,8 @@ first_selector.addEventListener("change", (e) => {
 
             first_input.value = default_entry_value;
             second_input.value = default_entry_value*1000;
+
+            formula_text.innerHTML = "multiplique o valor de volume por 1000";
             break;
 
         case "area":
@@ -330,6 +356,8 @@ first_selector.addEventListener("change", (e) => {
 
             first_input.value = default_entry_value;
             second_input.value = default_entry_value/10**6;
+
+            formula_text.innerHTML = "divida o valor de área por 1e+6";
             break;
 
         case "angulo":
@@ -341,6 +369,8 @@ first_selector.addEventListener("change", (e) => {
 
             first_input.value = default_entry_value;
             second_input.value = default_entry_value*Math.PI/180;
+
+            formula_text.innerHTML = "1° x pi/180 = 0,01745 rad";
             break;
     }
 
@@ -410,6 +440,76 @@ second_selector.addEventListener("change", (e) => {
             switch (second_selector_option) {
                 case "bit":
                     
+                    switch (third_selector_option) {
+                        case "bit":
+
+                            break;
+                        
+                        case "kilobit":
+                    
+                            break;
+                        case "kibibit":
+                            
+                            break;
+                        case "megabit":
+                            
+                            break;
+                        case "mebibit":
+                            
+                            break;
+                        case "gigabit":
+                            
+                            break;
+                        case "gibibit":
+                            
+                            break;
+                        case "terabit":
+                            
+                            break;
+                        case "tebibit":
+                            
+                            break;
+                        case "petabit":
+                            
+                            break;
+                        case "pebibit":
+                            
+                            break;
+                        case "byte":
+                            
+                            break;
+                        case "kilobyte":
+                            
+                            break;
+                        case "kibibyte":
+                            
+                            break;
+                        case "megabyte":
+                            
+                            break;
+                        case "mebibyte":
+                            
+                            break;
+                        case "gigabyte":
+                            
+                            break;
+                        case "gibibyte":
+                            
+                            break;
+                        case "terabyte":
+                            
+                            break;
+                        case "tebibyte":
+                            
+                            break;
+                        case "petabyte":
+                            
+                            break;
+                        case "pebibyte":
+                            
+                            break;
+                    }
+
                     break;
                 case "kilobit":
                     

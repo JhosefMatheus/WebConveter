@@ -892,48 +892,488 @@ second_selector.addEventListener("change", (e) => {
 third_selector.addEventListener("change", (e) => {
 
     var first_selector_option = first_selector.value;
+    var second_selector_option = second_selector.value;
+    var third_selector_option = third_selector.value;
 
     switch (first_selector_option) {
         case "armazenamento_de_dados":
             
+            switch (third_selector_option) {
+                case "bit":
+                    
+                    break;
+                case "kilobit":
+                    
+                    break;
+                case "kibibit":
+                    
+                    break;
+                case "megabit":
+                    
+                    break;
+                case "mebibit":
+                    
+                    break;
+                case "gigabit":
+                    
+                    break;
+                case "gibibit":
+                    
+                    break;
+                case "terabit":
+                    
+                    break;
+                case "tebibit":
+                    
+                    break;
+                case "petabit":
+                    
+                    break;
+                case "pebibit":
+                    
+                    break;
+                case "byte":
+                    
+                    break;
+                case "kilobyte":
+                    
+                    break;
+                case "kibibyte":
+                    
+                    break;
+                case "megabyte":
+                    
+                    break;
+                case "mebibyte":
+                    
+                    break;
+                case "gigabyte":
+                    
+                    break;
+                case "gibibyte":
+                    
+                    break;
+                case "terabyte":
+                    
+                    break;
+                case "tebibyte":
+                    
+                    break;
+                case "petabyte":
+                    
+                    break;
+                case "pebibyte":
+                    
+                    break;
+            }
+            
             break;
         case "comprimento":
             
+            switch (third_selector_option) {
+                case "quilometro":
+                    
+                    break;
+                case "metro":
+                    
+                    break;
+                case "centimetro":
+                    
+                    break;
+                case "milimetro":
+                    
+                    break;
+                case "micrometro":
+                    
+                    break;
+                case "nanometro":
+                    
+                    break;
+                case "milha":
+                    
+                    break;
+                case "jarda":
+                    
+                    break;
+                case "pe":
+                    
+                    break;
+                case "polegada":
+                    
+                    break;
+                case "milha_nautica":
+                    
+                    break;
+            }
+
             break;
         case "consumo_de_combustivel":
+
+            switch (third_selector_option) {
+                case "milha_por_galao_americano":
+                    
+                    break;
+                case "milha_por_galao_imperial":
+                    
+                    break;
+                case "quilometro_por_litro":
+                    
+                    break;
+                case "litro_por_100_quilometros":
+                    
+                    break;
+            }
             
             break;
         case "energia_mecanica":
+
+            switch (third_selector_option) {
+                case "joule":
+                    
+                    break;
+                case "quilojoule":
+                    
+                    break;
+                case "gram_calorie":
+                    
+                    break;
+                case "quilocaloria":
+                    
+                    break;
+                case "watt_hora":
+                    
+                    break;
+                case "quilowatt_hora":
+                    
+                    break;
+                case "eletron_volt":
+                    
+                    break;
+                case "btu":
+                    
+                    break;
+                case "therm_us":
+                    
+                    break;
+                case "pe_libra_forca":
+                    
+                    break;
+            }
             
             break;
         case "frequencia":
+
+            switch (third_selector_option) {
+                case "hertz":
+
+                    break;
+                case "quilo_hertz":
+                    
+                    break;
+                case "mega_hertz":
+                    
+                    break;
+                case "gigahertz":
+                    
+                    break;
+            }
             
             break;
         case "massa":
+
+            switch (third_selector_option) {
+                case "tonelada":
+                    
+                    break;
+                case "quilograma":
+                    
+                    break;
+                case "grama":
+                    
+                    break;
+                case "miligrama":
+                    
+                    break;
+                case "micrograma":
+                    
+                    break;
+                case "tonelada_de_deslocamento":
+                    
+                    break;
+                case "tonelada_curta":
+                    
+                    break;
+                case "stone":
+                    
+                    break;
+                case "libra":
+                    
+                    break;
+                case "onca":
+                    
+                    break;
+            }
             
             break;
         case "pressao":
+
+            switch (third_selector_option) {
+                case "atmosfera_padrao":
+                    
+                    break;
+                case "bar":
+                    
+                    break;
+                case "pascal":
+                    
+                    break;
+                case "psi":
+                    
+                    break;
+                case "torr":
+                    
+                    break;
+            }
             
             break;
         case "temperatura":
+
+            switch (third_selector_option) {
+                case "grau_celsius":
+                    
+                    break;
+                case "grau_fahrenheit":
+                    
+                    break;
+                case "kelvin":
+                    
+                    break;
+            }
             
             break;
         case "tempo":
+
+            switch (third_selector_option) {
+                case "nanossegundo":
+                    
+                    break;
+                case "microssegundo":
+                    
+                    break;
+                case "milissegundo":
+                    
+                    break;
+                case "segundo":
+                    
+                    break;
+                case "minuto":
+                    
+                    break;
+                case "hora":
+                    
+                    break;
+                case "dia":
+                    
+                    break;
+                case "semana":
+                    
+                    break;
+                case "mes":
+                    
+                    break;
+                case "ano_calendario":
+                    
+                    break;
+                case "decada":
+                    
+                    break;
+                case "seculo":
+                    
+                    break;
+            }
             
             break;
         case "transmissao_de_dados":
+
+            switch (third_selector_option) {
+                case "bit_por_segundo":
+                    
+                    break;
+                case "quilobit_por_segundo":
+                    
+                    break;
+                case "quilobyte_por_segundo":
+                    
+                    break;
+                case "kibibit por segundo":
+                    
+                    break;
+                case "megabit_por_segundo":
+                    
+                    break;
+                case "megabyte_por_segundo":
+                    
+                    break;
+                case "mebibit_por_segundo":
+                    
+                    break;
+                case "gigabit_por_segundo":
+                    
+                    break;
+                case "gigabyte_por_segundo":
+                    
+                    break;
+                case "gibibit_por_segundo":
+                    
+                    break;
+                case "terabit_por_segundo":
+                    
+                    break;
+                case "terabyte_por_segundo":
+                    
+                    break;
+                case "tebibit_por_segundo":
+                    
+                    break;
+            }
             
             break;
         case "velocidade":
+
+            switch (third_selector_option) {
+                case "milha_por_hora":
+                    
+                    break;
+                case "pes_por_segundo":
+                    
+                    break;
+                case "metro_por_segundo":
+                    
+                    break;
+                case "quilometro_por_hora":
+                    
+                    break;
+                case "no":
+                    
+                    break;
+            }
             
             break;
         case "volume":
+
+            switch (third_selector_option) {
+                case "galao_americano":
+                    
+                    break;
+                case "quarto_liquido_americano":
+                    
+                    break;
+                case "pinta_americana":
+                    
+                    break;
+                case "copo":
+                    
+                    break;
+                case "onca_liquida_americana":
+                    
+                    break;
+                case "colher_de_sopa_americana":
+                    
+                    break;
+                case "colher_de_cha_americana":
+                    
+                    break;
+                case "metro_cubico":
+                    
+                    break;
+                case "litro":
+                    
+                    break;
+                case "mililitro":
+                    
+                    break;
+                case "galao_imperial":
+                    
+                    break;
+                case "quarto_imperial":
+                    
+                    break;
+                case "pinto_imperial":
+                    
+                    break;
+                case "xicara_imperial":
+                    
+                    break;
+                case "onca_liquida_imperial":
+                    
+                    break;
+                case "colher_de_sopa_imperial":
+                    
+                    break;
+                case "colher_de_cha_imperial":
+                    
+                    break;
+                case "pe_cubico":
+                    
+                    break;
+                case "polegada_cubica":
+                    
+                    break;
+            }
             
             break;
         case "area":
+
+            switch (third_selector_option) {
+                case "quilometro_quadrado":
+                    
+                    break;
+                case "metro_quadrado":
+                    
+                    break;
+                case "milha_quadrada":
+                    
+                    break;
+                case "jarda_quadrada":
+                    
+                    break;
+                case "pe_quadrado":
+                    
+                    break;
+                case "polegada_quadrada":
+                    
+                    break;
+                case "hectare":
+                    
+                    break;
+                case "acre":
+                    
+                    break;
+            }
             
             break;
         case "angulo":
+
+            switch (third_selector_option) {
+                case "grado":
+                    
+                    break;
+                case "grau":
+                    
+                    break;
+                case "mil_angular":
+                    
+                    break;
+                case "minuto_de_arco":
+                    
+                    break;
+                case "radiano":
+                    
+                    break;
+                case "segundo_de_arco":
+                    
+                    break;
+            }
             
             break;
     }

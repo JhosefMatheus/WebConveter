@@ -558,69 +558,111 @@ second_selector.addEventListener("change", (e) => {
                     switch (third_selector_option) {
                         case "bit":
 
+                            formula_text.innerHTML = "multiplique o valor de armazenamento de dados por 1000";
+
                             break;
                         
                         case "kilobit":
                     
                             break;
                         case "kibibit":
+
+                            formula_text.innerHTML = "divida o valor de armazenamento de dados por 1,024";
                             
                             break;
                         case "megabit":
+
+                            formula_text.innerHTML = "divida o valor de armazenamento de dados por 1000";
                             
                             break;
                         case "mebibit":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divida o valor de armazenamento de dados por 1049";
                             
                             break;
                         case "gigabit":
+
+                            formula_text.innerHTML = "divida o valor de armazenamento de dados por 1e+6";
                             
                             break;
                         case "gibibit":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divida o valor de armazenamento de dados por 1,074e+6";
                             
                             break;
                         case "terabit":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divida o valor de armazenamento de dados por 1e+9";
                             
                             break;
                         case "tebibit":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divida o valor de armazenamento de dados por 1,1e+9";
                             
                             break;
                         case "petabit":
+
+                            formula_text.innerHTML = "divida o valor de armazenamento de dados por 1e+12";
                             
                             break;
                         case "pebibit":
+
+                            formula_text.innerHTML = "divida o valor de armazenamento de dados por 1,126e+12";
                             
                             break;
                         case "byte":
+
+                            formula_text.innerHTML = "multiplique o valor de armazenamento de dados por 125";
                             
                             break;
                         case "kilobyte":
+
+                            formula_text.innerHTML = "divida o valor de armazenamento de dados por 8"
                             
                             break;
                         case "kibibyte":
+
+                            formula_text.innerHTML = "divida o valor de armazenamento de dados por 8,192";
                             
                             break;
                         case "megabyte":
+
+                            formula_text.innerHTML = "divida o valor de armazenamento de dados por 8000";
                             
                             break;
                         case "mebibyte":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divida o valor de armazenamento de dados por 8389";
                             
                             break;
                         case "gigabyte":
+
+                            formula_text.innerHTML = "divida o valor de armazenamento de dados por 8e+6";
                             
                             break;
                         case "gibibyte":
+
+                            formula_text.innerHTML = "divida o valor de armazenamento de dados por 8,59e+6";
                             
                             break;
                         case "terabyte":
+
+                            formula_text.innerHTML = "divida o valor de armazenamento de dados por 8e+9";
                             
                             break;
                         case "tebibyte":
+
+                            formula_text.innerHTML = "divida o valor de armazenamento de dados por 8,796e+9";
                             
                             break;
                         case "petabyte":
+
+                            formula_text.innerHTML = "divida o valor de armazenamento de dados por 8e+12";
                             
                             break;
                         case "pebibyte":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divid ao valor de armazenamento de dados por 9,007e+12";
                             
                             break;
                     }
@@ -631,69 +673,113 @@ second_selector.addEventListener("change", (e) => {
                     switch (third_selector_option) {
                         case "bit":
 
+                            formula_text.innerHTML = "multiplique o valor de armazenamento de dados por 1024";
+
                             break;
                         
                         case "kilobit":
+
+                            formula_text.innerHTML = "multiplique o valor de armazenamento de dados por 1,024";
                     
                             break;
                         case "kibibit":
+
+                            
                             
                             break;
                         case "megabit":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divida o valor de armazenamento de dados por 977";
                             
                             break;
                         case "mebibit":
+
+                            formula_text.innerHTML = "divida o valor de armazenamento de dados por 1024";
                             
                             break;
                         case "gigabit":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divida o valor de armazenamento de dados por 976562";
                             
                             break;
                         case "gibibit":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divida o valor de armazenamento de dados por 1,049e+6";
                             
                             break;
                         case "terabit":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divida o valor de armazenamento de dados por 9,766e+8";
                             
                             break;
                         case "tebibit":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divida o valor de armazenamento de dados por 1,074e+9";
                             
                             break;
                         case "petabit":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divida o valor de armazenamento de dados por 9,766e+11";
                             
                             break;
                         case "pebibit":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divida o valor de armazenamento de dados por 1,1e+12";
                             
                             break;
                         case "byte":
+
+                            formula_text.innerHTML = "multiplique o valor de armazenamento de dados por 128";
                             
                             break;
                         case "kilobyte":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divida o valor de armazenamento de dados por 7,812";
                             
                             break;
                         case "kibibyte":
+
+                            formula_text.innerHTML = "divida o valor de armazenamento de dados por 8";
                             
                             break;
                         case "megabyte":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divida o valor de armazenamento de dados por 7813"
                             
                             break;
                         case "mebibyte":
+
+                            formula_text.innerHTML = "divida o valor de armazenamento de dados por 8192";
                             
                             break;
                         case "gigabyte":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divida o valor de armazenamento de dados por 7,812e+6";
                             
                             break;
                         case "gibibyte":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divida o valor de armazenamento de dados por 8,389e+6";
                             
                             break;
                         case "terabyte":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divida o valor de armazenamento de dados por 7,812e+9";
                             
                             break;
                         case "tebibyte":
+
+                            formula_text.innerHTML = "divida o valor de armazenamento de dados por 8,59e+9";
                             
                             break;
                         case "petabyte":
+
+                            formula_text.innerHTML = "para um resultado aproximado, divida o valor de armazenamento de dados por 7,812e+12";
                             
                             break;
                         case "pebibyte":
+
+                            formula_text.innerHTML = "divida o valor de armazenamento de dados por 8,796e+12";
                             
                             break;
                     }
